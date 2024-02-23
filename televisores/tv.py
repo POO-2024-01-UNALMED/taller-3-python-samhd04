@@ -71,3 +71,5 @@ class TV:
     def volumenDown(self):
         if self.estado == True and (self.volumen > 0 and self.volumen <= 7):
             self.volumen = self.volumen - 1
+
+word = "ok"
